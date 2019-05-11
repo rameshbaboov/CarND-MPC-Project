@@ -1,0 +1,4 @@
+Scanning dependencies of target mpc
+[ 33%] Building CXX object CMakeFiles/mpc.dir/src/MPC.cpp.o
+[ 66%] Linking CXX executable mpc
+[100%] Built target mpc
