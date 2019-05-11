@@ -20,16 +20,28 @@ This project was done in Ubuntu 18 LTS and following are the components
 Ouput:
 Below are the output of this project:
 
+<img src = "https://github.com/rameshbaboov/CarND-MPC-Project/blob/master/img/1.JPG" width = 500 >
+
+
 Simulator output:
 Once the code is run following message is displayed. The application connects to the Simulator on port # 4567 , once the project is seleted and started on simulator as shown below:
 
+<img src = "https://github.com/rameshbaboov/CarND-MPC-Project/blob/master/img/2.JPG" width = 500 >
 
 
 Initially for few seconds, the car swings little bit and the green and yellow lines are not stable. However the car pick up speed and also the algorithm start minimizing the error
 
+<img src = "https://github.com/rameshbaboov/CarND-MPC-Project/blob/master/img/3.JPG" width = 500 >
 
 
 Performance of car on curves.: The algorithm reduces the speed as the cross track error increases on curves:
+
+<img src = "https://github.com/rameshbaboov/CarND-MPC-Project/blob/master/img/4.JPG" width = 500 >
+
+<img src = "https://github.com/rameshbaboov/CarND-MPC-Project/blob/master/img/5.JPG" width = 500 >
+
+<img src = "https://github.com/rameshbaboov/CarND-MPC-Project/blob/master/img/6.JPG" width = 500 >
+
 
 
 ## RUBRICS:
@@ -57,11 +69,13 @@ The model used is Kinematic model (Bi cycle model). However, the model does not 
 
 Below are the equations of the model.
 
+<img src = "https://github.com/rameshbaboov/CarND-MPC-Project/blob/master/img/7.JPG" width = 500 >
 
 
 
 Cost Function: Below is the cost function used in the application in MPC.CPP
 
+<img src = "https://github.com/rameshbaboov/CarND-MPC-Project/blob/master/img/8.JPG" width = 500 >
 
 
 
